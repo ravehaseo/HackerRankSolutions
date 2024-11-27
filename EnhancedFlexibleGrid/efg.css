@@ -1,0 +1,20 @@
+/* Add your css styles here */
+.cell {
+    border: 1px solid;
+    margin: 1px;
+}
+.container {
+    border: 1px solid;
+}
+@media screen and (min-width: 360px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media screen and (min-width: 720px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+    }
+}
